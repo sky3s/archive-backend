@@ -1,0 +1,345 @@
+2022-12-18 15:28:09,897 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : length -> character_length
+2022-12-18 15:28:09,899 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.LocatePositionEmulation@620572db] under position; prior registration was null
+2022-12-18 15:28:09,899 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.InsertSubstringOverlayEmulation@1a02ebe0] under overlay; prior registration was null
+2022-12-18 15:28:09,900 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.TrimFunction@752494dd] under trim; prior registration was null
+2022-12-18 15:28:09,900 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastFunction@644b68ad] under cast; prior registration was null
+2022-12-18 15:28:09,901 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7c048b30] under collate; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.ExtractFunction@11170228] under extract; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(least)] under least; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(greatest)] under greatest; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CoalesceIfnullEmulation@1b5af65b] under ifnull; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lpad)] under lpad; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rpad)] under rpad; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.LpadRpadPadEmulation@38c55a8a] under pad; prior registration was null
+2022-12-18 15:28:09,902 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastStrEmulation@58583a2d] under str; prior registration was null
+2022-12-18 15:28:09,903 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@6802d023] under format; prior registration was null
+2022-12-18 15:28:09,903 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampaddFunction@e7d0db2] under timestampadd; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampdiffFunction@26f480c6] under timestampdiff; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : dateadd -> timestampadd
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : datediff -> timestampdiff
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@74bfdd66] under current_date; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@6fc7e828] under current_time; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@26a9c6df] under current_timestamp; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : current date -> current_date
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : current time -> current_time
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : current timestamp -> current_timestamp
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@2ce24a1a] under local_date; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@26bce60d] under local_time; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@76eadc5a] under local_datetime; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@1e9d7366] under offset_datetime; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : local date -> local_date
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : local time -> local_time
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : local datetime -> local_datetime
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : offset datetime -> offset_datetime
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@20914835] under instant; prior registration was null
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : current_instant -> instant
+2022-12-18 15:28:09,904 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.SqlFunction@1e7d3d87] under sql; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(soundex)] under soundex; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(radians)] under radians; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(degrees)] under degrees; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cot)] under cot; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log)] under log; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log2)] under log2; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log10)] under log10; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(pi)] under pi; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ltrim)] under ltrim; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rtrim)] under rtrim; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(reverse)] under reverse; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(space)] under space; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(repeat)] under repeat; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@5c5f12e] under lpad; prior registration was NamedSqmFunctionTemplate(lpad)
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@23f8036d] under rpad; prior registration was NamedSqmFunctionTemplate(rpad)
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(md5)] under md5; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(day)] under day; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(month)] under month; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(year)] under year; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(hour)] under hour; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(minute)] under minute; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(second)] under second; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(microsecond)] under microsecond; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofweek)] under dayofweek; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofmonth)] under dayofmonth; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : day -> dayofmonth
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofyear)] under dayofyear; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(week)] under week; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(quarter)] under quarter; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(monthname)] under monthname; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayname)] under dayname; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_day)] under last_day; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(date)] under date; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(timestamp)] under timestamp; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(time)] under time; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_date)] under utc_date; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_time)] under utc_time; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_timestamp)] under utc_timestamp; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rand)] under rand; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(crc32)] under crc32; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha1)] under sha1; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha2)] under sha2; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha)] under sha; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_length)] under bit_length; prior registration was null
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was NamedSqmFunctionTemplate(octet_length)
+2022-12-18 15:28:09,905 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ascii)] under ascii; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(char)] under char; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registering alternate key : chr -> char
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(instr)] under instr; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substr; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@68f69ca3] under position; prior registration was org.hibernate.dialect.function.LocatePositionEmulation@620572db
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curtime)] under curtime; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curdate)] under curdate; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(now)] under now; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(truncate)] under truncate; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(insert)] under insert; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1e3566e] under bitand; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2b058bfd] under bitor; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@4805069b] under bitxor; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@14ca88bc] under bitnot; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_and)] under bit_and; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_or)] under bit_or; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev)] under stddev; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_pop)] under stddev_pop; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_samp)] under stddev_samp; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(variance)] under variance; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_pop)] under var_pop; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_samp)] under var_samp; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(datediff)] under datediff; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(adddate)] under adddate; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subdate)] under subdate; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(addtime)] under addtime; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subtime)] under subtime; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@f01fc6d] under format; prior registration was org.hibernate.dialect.function.FormatFunction@6802d023
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(makedate)] under makedate; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(maketime)] under maketime; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under localtimestamp; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under local_time; prior registration was org.hibernate.dialect.function.CurrentFunction@26bce60d
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under local_datetime; prior registration was org.hibernate.dialect.function.CurrentFunction@76eadc5a
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was NamedSqmFunctionTemplate(localtime)
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@85cd413] under sysdate; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.ListaggGroupConcatEmulation@46b21632] under listagg; prior registration was null
+2022-12-18 15:28:09,906 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(row_number)] under row_number; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lag)] under lag; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lead)] under lead; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(first_value)] under first_value; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_value)] under last_value; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nth_value)] under nth_value; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@70840a5a] under rank; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@7af9595d] under dense_rank; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@7a34c1f6] under percent_rank; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@6e9f8160] under cume_dist; prior registration was null
+2022-12-18 15:28:09,907 DEBUG [main] org.hibernate.query.sqm.function.SqmFunctionRegistry : Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(json_valid)] under json_valid; prior registration was null
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : abs(NUMERIC arg)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double acos(NUMERIC arg)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : adddate(DATE datetime, INTEGER days)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : addtime(TIME datetime, TIME time)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Boolean any(BOOLEAN arg)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer ascii(STRING arg)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double asin(NUMERIC arg)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double atan(NUMERIC arg)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double atan2(NUMERIC arg0, NUMERIC arg1)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double avg(NUMERIC arg)
+2022-12-18 15:28:09,909 DEBUG [main] org.hibernate.HQL_FUNCTIONS : bit_and(arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer bit_length(STRING_OR_CLOB arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : bit_or(arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : bitand(arg0, arg1)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : bitnot(arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : bitor(arg0, arg1)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : bitxor(arg0, arg1)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : cast(arg as Type)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : ceiling(NUMERIC arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Character char(INTEGER arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer character_length(STRING_OR_CLOB arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : coalesce(arg0[, arg1[, ...]])
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String collate(STRING string as COLLATION collation)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String concat(STRING string0[, STRING string1[, ...]])
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double cos(NUMERIC arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double cot(NUMERIC arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Long count([distinct ]{arg|*})
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer crc32(arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double cume_dist([arg0[, ...]])
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Date curdate()
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Date current_date
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Time current_time
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp current_timestamp
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Time curtime()
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Date date(arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer datediff(DATE end, DATE start)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer day(DATE arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String dayname(DATE arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer dayofmonth(DATE arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer dayofweek(DATE arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer dayofyear(DATE arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double degrees(NUMERIC arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Long dense_rank([arg0[, ...]])
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Boolean every(BOOLEAN arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double exp(NUMERIC arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : extract(TEMPORAL_UNIT field from TEMPORAL arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : first_valueANY value
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : floor(NUMERIC arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String format(TEMPORAL datetime as STRING pattern)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer hour(TIME arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : ifnull(arg0, arg1)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Instant instant
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer instr(STRING string, STRING pattern[, INTEGER start[, INTEGER occurrence]])
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Boolean json_valid([arg0[, ...]])
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : lagANY value[, INTEGER offset[, ANY default]]
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Date last_day(DATE arg)
+2022-12-18 15:28:09,910 DEBUG [main] org.hibernate.HQL_FUNCTIONS : last_valueANY value
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : leadANY value[, INTEGER offset[, ANY default]]
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String left(STRING string, INTEGER length)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String listagg(STRING arg0, STRING arg1)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double ln(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : LocalDate local_date
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : LocalDateTime local_datetime
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : LocalTime local_time
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp localtime
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp localtimestamp
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer locate(STRING pattern, STRING string[, INTEGER start])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double log(NUMERIC arg0[, NUMERIC arg1])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double log10(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double log2(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String lower(STRING string)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String lpad(string, length[, padding])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String ltrim(STRING string[, STRING characters])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Date makedate(INTEGER year, INTEGER dayofyear)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Time maketime(INTEGER hour, INTEGER min, INTEGER sec)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : max(COMPARABLE arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String md5(arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer microsecond(TIME arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : min(COMPARABLE arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer minute(TIME arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer mod(INTEGER arg0, INTEGER arg1)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer month(DATE arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String monthname(DATE arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp now()
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : nth_valueANY value, INTEGER nth
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : nullif(arg0, arg1)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer octet_length(STRING_OR_CLOB arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : OffsetDateTime offset_datetime
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String overlay(STRING string placing STRING replacement from INTEGER start[ for INTEGER length])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double percent_rank([arg0[, ...]])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double pi()
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer position(STRING pattern in STRING string)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double power(NUMERIC arg0, NUMERIC arg1)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer quarter(DATE arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double radians(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double rand([INTEGER seed])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Long rank([arg0[, ...]])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String repeat(STRING string, INTEGER times)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String replace(STRING string, STRING pattern, STRING replacement)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String reverse(STRING arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String right(STRING string, INTEGER length)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : round(NUMERIC arg0, INTEGER arg1)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Long row_number()
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String rpad(string, length[, padding])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String rtrim(STRING string[, STRING characters])
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer second(TIME arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String sha(arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String sha1(arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String sha2(arg0, arg1)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer sign(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double sin(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String soundex(arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String space(INTEGER arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Object sql
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double sqrt(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double stddev(NUMERIC arg)
+2022-12-18 15:28:09,911 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double stddev_pop(NUMERIC arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double stddev_samp(NUMERIC arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String str(arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : subdate(DATE datetime, INTEGER days)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String substr(STRING string, INTEGER start[, INTEGER length])
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : subtime(TIME datetime, TIME time)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : sum(arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp sysdate()
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double tan(NUMERIC arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String time(arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp timestamp(arg0[, arg1])
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : basicType@10(java.lang.Long,-5)|basicType@15(java.lang.Double,6) timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double truncate(NUMERIC number, INTEGER places)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : String upper(STRING string)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Date utc_date
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Time utc_time
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp utc_timestamp
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double var_pop(NUMERIC arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double var_samp(NUMERIC arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Double variance(NUMERIC arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer week(DATE arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer year(DATE arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Character chr(INTEGER arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Date current date
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Time current time
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Timestamp current timestamp
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Instant current_instant
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer day(DATE arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : Integer length(STRING_OR_CLOB arg)
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : LocalDate local date
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : LocalDateTime local datetime
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : LocalTime local time
+2022-12-18 15:28:09,912 DEBUG [main] org.hibernate.HQL_FUNCTIONS : OffsetDateTime offset datetime
+2022-12-18 15:28:09,913 DEBUG [main] org.hibernate.type.spi.TypeConfiguration$Scope : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@da5d5e1] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@1b6cad77]
+2022-12-18 15:28:09,927 DEBUG [main] org.hibernate.orm.model.mapping.creation : Starting post-init callbacks
+2022-12-18 15:28:09,937 DEBUG [main] org.hibernate.query.named.NamedObjectRepository : Checking 0 named HQL queries
+2022-12-18 15:28:09,937 DEBUG [main] org.hibernate.query.named.NamedObjectRepository : Checking 0 named SQL queries
+2022-12-18 15:28:09,939 DEBUG [main] org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator : No actions found; doing nothing
+2022-12-18 15:28:09,939 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-18 15:28:09,941 DEBUG [main] org.hibernate.service.internal.SessionFactoryServiceRegistryImpl : EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2022-12-18 15:28:09,945 DEBUG [main] org.hibernate.internal.SessionFactoryRegistry : Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@5e360c3b
+2022-12-18 15:28:09,945 DEBUG [main] org.hibernate.internal.SessionFactoryRegistry : Registering SessionFactory: 8bc06301-a348-45ac-be9d-94e713cb3bb7 (<unnamed>)
+2022-12-18 15:28:09,945 DEBUG [main] org.hibernate.internal.SessionFactoryRegistry : Not binding SessionFactory to JNDI, no JNDI name configured
+2022-12-18 15:28:09,946 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-18 15:28:10,008 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2022-12-18 15:28:10,009 DEBUG [main] org.hibernate.validator.internal.engine.AbstractConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-12-18 15:28:10,009 DEBUG [main] org.hibernate.validator.internal.engine.AbstractConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-12-18 15:28:10,010 DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-12-18 15:28:10,010 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2022-12-18 15:28:10,010 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2022-12-18 15:28:10,010 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-12-18 15:28:10,010 DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2022-12-18 15:28:10,010 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2022-12-18 15:28:10,010 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2022-12-18 15:28:10,011 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2022-12-18 15:28:10,011 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-12-18 15:28:10,011 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-12-18 15:28:10,011 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-12-18 15:28:10,011 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-12-18 15:28:10,011 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-12-18 15:28:10,061 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-18 15:28:10,128 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-12-18 15:28:10,178 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2022-12-18 15:28:10,406 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**, /swagger-ui.html, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2022-12-18 15:28:10,410 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-12-18 15:28:10,537 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8050 (http) with context path '/archive-backend'
+2022-12-18 15:28:10,546 INFO  [main] com.axial.archive_backend.ArchiveBackendApplication : Started ArchiveBackendApplication in 2.876 seconds (process running for 3.916)
+2022-12-18 15:28:40,410 INFO  [http-nio-8050-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/archive-backend] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-18 15:28:40,412 INFO  [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-12-18 15:28:40,412 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+2022-12-18 15:28:40,412 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected AcceptHeaderLocaleResolver
+2022-12-18 15:28:40,412 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected FixedThemeResolver
+2022-12-18 15:28:40,414 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@40c6d1ef
+2022-12-18 15:28:40,415 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7dc92a06
+2022-12-18 15:28:40,415 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-12-18 15:28:40,415 INFO  [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2022-12-18 15:28:40,421 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : GET "/archive-backend/management/api/demo/demo2", parameters={}
+2022-12-18 15:28:40,429 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to com.axial.archive_backend.rest_api.demo.DemoManagementController#demo2()
+2022-12-18 15:28:40,457 DEBUG [http-nio-8050-exec-1] org.hibernate.stat.internal.StatisticsInitiator : Statistics initialized [enabled=false]
+2022-12-18 17:42:11,666 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h13m31s872ms).
+2022-12-18 17:42:11,712 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json]
+2022-12-18 17:42:11,717 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [true]
+2022-12-18 17:42:11,737 DEBUG [http-nio-8050-exec-1] org.springframework.web.servlet.DispatcherServlet : Failed to complete request: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+2022-12-18 17:42:11,777 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-18 17:42:11,778 DEBUG [SpringApplicationShutdownHook] org.hibernate.internal.SessionFactoryImpl : HHH000031: Closing
+2022-12-18 17:42:11,778 DEBUG [SpringApplicationShutdownHook] org.hibernate.type.spi.TypeConfiguration$Scope : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@6b68aaf3] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1b6cad77]
+2022-12-18 17:42:11,778 DEBUG [SpringApplicationShutdownHook] org.hibernate.service.internal.AbstractServiceRegistryImpl : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2022-12-18 17:42:11,779 DEBUG [SpringApplicationShutdownHook] org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2022-12-18 17:42:11,780 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2022-12-18 17:42:11,788 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
