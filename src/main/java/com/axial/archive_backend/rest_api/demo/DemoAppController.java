@@ -1,6 +1,6 @@
 package com.axial.archive_backend.rest_api.demo;
 
-import com.axial.archive_backend.extension.openapi.AppApiConfig;
+import com.axial.archive_backend.extension.openapi.ArchiveBackendApiConfig;
 import com.axial.modules.openapi_manager.model.ApiCustomizer;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
@@ -21,7 +21,7 @@ public class DemoAppController {
 
     private final ApiCustomizer apiCustomizer;
 
-    private final AppApiConfig apiConfig;
+    private final ArchiveBackendApiConfig apiConfig;
 
 
     @GetMapping(value = "/demo1", produces = MediaType.APPLICATION_JSON_VALUE)

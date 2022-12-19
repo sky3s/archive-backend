@@ -43,12 +43,12 @@ api-config:
         - MANAGEMENT
       securityHeaders:
         DEMO_USERNAME:
-          key: X-Username
-          name: Username
+          key: Username
+          name: X-Username
           description: Username of user
       headers:
         DEMO_HEADER:
-          key: X-DemoHeader
+          name: X-DemoHeader
           required: false
           example: 12345678901
           description: Unique identity number of user logged in
@@ -61,24 +61,10 @@ server:
         secure: true
 
 springdoc:
-  api-docs:
-    path: /api-docs
-    enabled: true
   swagger-ui:
-    enabled: true
-    path: /swagger-ui.html
-    doc-expansion: none
-    display-request-duration: true
-    deep-linking: true
-    show-extensions: true
-    default-model-expand-depth: 1
-    default-models-expand-depth: 1
-    operations-sorter: alpha
-    tags-sorter: alpha
+    display-operation-id: true
     try-it-out-enabled: true
     filter: true
-    display-operation-id: true
-    disable-swagger-default-url: false
 
 spring:
   application:

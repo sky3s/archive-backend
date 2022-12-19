@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+0<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -69,7 +69,6 @@
         <powermock.version>2.0.9</powermock.version>
 
 
-
     </properties>
 
 
@@ -96,19 +95,10 @@
         </dependency>
         -->
 
-    <dependency>
-        <groupId>com.axial.spring.modules</groupId>
-        <artifactId>openapi-manager</artifactId>
-        <version>${openapi-manager.version}</version>
-        <!--
-        <exclusions>
-            <exclusion>
-                <groupId>com.axial.spring.modules</groupId>
-                <artifactId>message-handler</artifactId>
-            </exclusion>
-        </exclusions>
-        -->
-
+        <dependency>
+            <groupId>com.axial.spring.modules</groupId>
+            <artifactId>openapi-manager</artifactId>
+            <version>${openapi-manager.version}</version>
         </dependency>
 
         <!-- Spring Dependencies -->
