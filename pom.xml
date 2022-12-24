@@ -140,14 +140,6 @@
         -->
 
 
-        <!-- Use bootstrap.yml -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bootstrap</artifactId>
-            <version>${spring-cloud-starter.version}</version>
-        </dependency>
-
-
         <!-- Swagger 3 / Open API Dependencies  -->
         <!--
         <dependency>
