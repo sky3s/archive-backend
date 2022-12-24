@@ -14,9 +14,9 @@ import java.util.List;
 public class ArchiveBackendApiConfig implements ApiCustomizer {
 
     @Override
-    public List<ApiHeader> getApiHeaders() {
+    public List<ApiHeader> getHeaders() {
 
-        final List<ApiHeader> headers = ApiCustomizer.super.getApiHeaders();
+        final List<ApiHeader> headers = ApiCustomizer.super.getHeaders();
 
         headers.addAll(Arrays.asList(
 
