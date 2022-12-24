@@ -19,6 +19,19 @@ public class ArchiveBackendApiConfig implements ApiCustomizer {
         final List<ApiHeader> headers = ApiCustomizer.super.getApiHeaders();
 
         headers.addAll(Arrays.asList(
+
+                ApiHeader.builder().key("ApiKeyAuth").name("X-ApiKey")
+                        .defaultValue("ABCD123456").required(true).description("Enter your apikey")
+                        .defaultApiHeader(false).defaultSecurityHeader(true).build(),
+
+                ApiHeader.builder().key("Username").name("X-Username")
+                        .defaultValue("dummyUser").required(false).description("Enter your username")
+                        .defaultApiHeader(false).defaultSecurityHeader(false).build(),
+
+                ApiHeader.builder().key("AcceptLanguage").name("Accept-Language")
+                        .defaultValue("tr").required(false).description("Requested language")
+                        .defaultApiHeader(true).defaultSecurityHeader(false).build(),
+
                 ApiHeader.builder().key("ClearCachedData").name("X-ClearCachedData")
                         .defaultValue("false").required(false).description("Clear cached data")
                         .defaultApiHeader(false).defaultSecurityHeader(false).build()

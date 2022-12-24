@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @AllArgsConstructor
-@RequestMapping(value = {"management/api/demo"})
+@RequestMapping(value = {"management/api/v1/demo"})
 public class DemoManagementController {
 
     private final String controllerTag = "Demo Management API Services";

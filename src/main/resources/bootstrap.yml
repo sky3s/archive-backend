@@ -3,25 +3,26 @@ api-config:
   version: @project.version@
   domains:
     - /archive-backend # http://localhost:8070/tmp
+    - /demo/arch
+    - http://localhost:8077/test-api/
   custom-paths:
   #    - /app/**
-  commonSecurityHeaders:
+  common-security-headers:
     TOKEN:
       key: TokenAuth
       name: X-Token
       description: Please enter your token
-  commonHeaders:
+  common-headers:
     DEMO_COMM_HEADER:
       name: X-CommonDemoHeader
       required: false
-      defaultValue: demo
+      default-value: demo
       example: demoBigDemo
       description: Demo Big demo
   apis:
     APP_API:
-      apiId: AppApi
-      name: App API
-      groupName: App API
+      name: AppAPI
+      group-name: App API
       description: Archive Backend App Services
       path: /app/**
       headers:
@@ -30,18 +31,17 @@ api-config:
           required: true
           example: 12345678901
           description: Unique identity number of user logged in
-      allowedRoles:
+      allowed-roles:
         - APP
         - MANAGEMENT
     MANAGEMENT_API:
-      apiId: ManagementApi
-      name: Management API
-      groupName: Management API
+      name: ManagementAPI
+      group-name: Management API
       description: Sprint Template Project Management Services
       path: /management/**
-      allowedRoles:
+      allowed-roles:
         - MANAGEMENT
-      securityHeaders:
+      security-headers:
         DEMO_USERNAME:
           key: Username
           name: X-Username

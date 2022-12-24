@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @AllArgsConstructor
-@RequestMapping(value = {"app/api/demo"})
+@RequestMapping(value = {"app/api/v1/demo"})
 public class DemoAppController {
 
     private final String controllerTag = "Demo App API Services";
@@ -22,7 +22,6 @@ public class DemoAppController {
     private final ApiCustomizer apiCustomizer;
 
     private final ArchiveBackendApiConfig apiConfig;
-
 
     @GetMapping(value = "/demo1", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Object> demo1() {
