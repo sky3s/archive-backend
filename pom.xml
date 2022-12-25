@@ -49,7 +49,7 @@
         <spring-boot-starter-jdbc.version>3.0.1</spring-boot-starter-jdbc.version>
 
         <!-- Java Dependencies -->
-        <servlet-api.version>6.0.0.</servlet-api.version>
+        <jakarta-servlet-api.version>6.0.0</jakarta-servlet-api.version>
 
         <!-- Annotation Processor Dependencies-->
         <lombok.version>1.18.24</lombok.version>
@@ -130,6 +130,26 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- For using bootstrap.yml -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>${spring-cloud-starter.version}</version>
+        </dependency>
+
+        <!-- Java Dependencies -->
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>${jakarta-servlet-api.version}</version>
+        </dependency>
+
+        <!-- Swagger 3 / Open API Dependencies  -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>${springdoc-openapi-starter-webmvc-ui.version}</version>
+        </dependency>
 
         <!-- Spring Template Engine -->
         <!--

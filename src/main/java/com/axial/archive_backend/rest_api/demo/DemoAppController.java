@@ -1,7 +1,7 @@
 package com.axial.archive_backend.rest_api.demo;
 
 import com.axial.archive_backend.extension.openapi.ArchiveBackendApiConfig;
-import com.axial.modules.openapi_manager.model.ApiCustomizer;
+import com.axial.modules.openapi_manager.ApiCustomizer;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
