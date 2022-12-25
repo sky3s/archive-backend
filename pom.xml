@@ -128,11 +128,13 @@
         </dependency>
 
         <!-- For using bootstrap.yml -->
+        <!--
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
             <version>${spring-cloud-starter.version}</version>
         </dependency>
+        -->
 
         <!-- Java Dependencies -->
         <dependency>
@@ -142,11 +144,13 @@
         </dependency>
 
         <!-- Swagger 3 / Open API Dependencies  -->
+        <!--
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>${springdoc-openapi-starter-webmvc-ui.version}</version>
         </dependency>
+        -->
 
         <!-- Spring Template Engine -->
         <!--
@@ -155,31 +159,6 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
         -->
-
-
-        <!-- Swagger 3 / Open API Dependencies  -->
-        <!--
-        <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
-            <version>${springdoc-openapi-ui.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>commons-lang3</artifactId>
-                    <groupId>org.apache.commons</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        -->
-
-        <!--
-        <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>${springdoc-openapi-starter-webmvc-ui.version}</version>
-        </dependency>
-        -->
-
 
         <!-- Spring DB Dependencies -->
         <dependency>
@@ -250,7 +229,6 @@
 
 
         <!-- Test Dependencies -->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
