@@ -71,6 +71,15 @@ spring:
     name: archive-backend
   profiles:
     active: dev
+  group-configs:
+    - group: AppAPI
+      display-name: App API
+      paths-to-match:
+        - /app/**
+    - group: ManagementAPI
+      display-name: Management API
+      paths-to-match:
+        - /management/**
   cloud:
     config:
       enabled: false

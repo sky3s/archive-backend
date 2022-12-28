@@ -4,6 +4,7 @@ import com.axial.modules.openapi_manager.ApiCustomizer;
 import com.axial.modules.openapi_manager.model.ApiHeader;
 import org.springframework.stereotype.Component;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -17,45 +18,53 @@ public class ArchiveBackendApiConfig implements ApiCustomizer {
 
         final List<ApiHeader> headers = ApiCustomizer.super.getHeaders();
 
-        ApiHeader header = new ApiHeader();
-        header.setKey("ApiKeyAuth");
-        header.setName("X-ApiKey");
-        header.setDefaultValue("ABCD123456");
-        header.setRequired(true);
-        header.setDescription("Enter your apikey");
-        header.setDefaultApiHeader(false);
-        header.setDefaultSecurityHeader(true);
-        headers.add(header);
+        headers.addAll(
+                Arrays.asList(
+                        ApiHeader
+                                .builder()
+                                .key("ApiKeyAuth")
+                                .name("X-ApiKey")
+                                .defaultValue("ABCD123456")
+                                .required(true)
+                                .description("Enter your apikey")
+                                .defaultApiHeader(false)
+                                .defaultSecurityHeader(true)
+                                .build(),
 
-        header = new ApiHeader();
-        header.setKey("Username");
-        header.setName("X-Username");
-        header.setDefaultValue("dummyUser");
-        header.setRequired(false);
-        header.setDescription("Enter your username");
-        header.setDefaultApiHeader(false);
-        header.setDefaultSecurityHeader(false);
-        headers.add(header);
+                        ApiHeader
+                                .builder()
+                                .key("Username")
+                                .name("X-Username")
+                                .defaultValue("dummyUser")
+                                .required(false)
+                                .description("Enter your username")
+                                .defaultApiHeader(false)
+                                .defaultSecurityHeader(false)
+                                .build(),
 
-        header = new ApiHeader();
-        header.setKey("AcceptLanguage");
-        header.setName("Accept-Language");
-        header.setDefaultValue("en");
-        header.setRequired(false);
-        header.setDescription("Requested language");
-        header.setDefaultApiHeader(true);
-        header.setDefaultSecurityHeader(false);
-        headers.add(header);
+                        ApiHeader
+                                .builder()
+                                .key("AcceptLanguage")
+                                .name("Accept-Language")
+                                .defaultValue("en")
+                                .required(false)
+                                .description("Requested language")
+                                .defaultApiHeader(true)
+                                .defaultSecurityHeader(false)
+                                .build(),
 
-        header = new ApiHeader();
-        header.setKey("ClearCachedData");
-        header.setName("X-ClearCachedData");
-        header.setDefaultValue("false");
-        header.setRequired(false);
-        header.setDescription("Clear cached data");
-        header.setDefaultApiHeader(false);
-        header.setDefaultSecurityHeader(false);
-        headers.add(header);
+                        ApiHeader
+                                .builder()
+                                .key("ClearCachedData")
+                                .name("X-ClearCachedData")
+                                .defaultValue("false")
+                                .required(false)
+                                .description("Clear cached data")
+                                .defaultApiHeader(false)
+                                .defaultSecurityHeader(false)
+                                .build()
+                )
+        );
 
         return headers;
     }

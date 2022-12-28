@@ -1,6 +1,7 @@
 package com.axial.archive_backend.rest_api.demo;
 
 import com.axial.archive_backend.extension.openapi.ArchiveBackendApiConfig;
+import com.axial.archive_backend.extension.openapi.model.ArchiveApplicationApiConfig;
 import com.axial.modules.openapi_manager.ApiCustomizer;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoAppController {
 
     private final String controllerTag = "Demo App API Services";
+
+    private final ArchiveApplicationApiConfig applicationApiConfig;
 
     private final ApiCustomizer apiCustomizer;
 
